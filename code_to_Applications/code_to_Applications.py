@@ -1,14 +1,15 @@
 
 # -*- coding: cp1251 -*-
+
+
 from docx import Document
 from encodings import utf_8
 import docx
 from docx.shared import Pt
-import os
+
 from docx.shared import Mm
 from docx.enum.style import WD_STYLE_TYPE
-
-
+import os
 
 
 listfiles = sorted(os.listdir('file/'))
